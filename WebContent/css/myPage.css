@@ -1,0 +1,21 @@
+﻿@charset "utf-8";
+
+.mybody{
+	background-image:url(../img/bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;  
+	background-position: center 0;
+}
+
+.divcenter{
+    position: absolute;
+    font-size:20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background:rgba(255,255,255,0.7);
+}
+
+.tr{
+	white-space:nowrap; <!-- table tr不换行 -->
+}
